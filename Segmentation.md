@@ -15,7 +15,7 @@ k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측�
 2,3번 작업을 반복적으로 수행한다. 변화가 없으면 작업을 중단한다.
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
- K-means Code example 
+ **K-means Code example** 
  Ref.: https://www.kaggle.com/kushal1996/customer-segmentation-k-means-analysis
 
 ----------
@@ -23,10 +23,9 @@ k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측�
 **방법2)Hierarchical Clustering(계층적 군집분석)** 
 
 특정 알고리즘에 의해 데이터들을 연결하여 계층적으로 클러스터를 구성해 나가는 방법(K-means와 달리 클러스터의 개수를 미리 가정할 필요 X)
-
 - Ref. : http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=221019280298&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
 
-Hirerarchical Clustering Code example 
+**Hirerarchical Clustering Code example** 
 Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
 
 ----------
@@ -39,8 +38,7 @@ Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
 -Recency (거래의 최근성) : 고객이 얼마나 최근에 구입했는가?
 -Frequency (거래빈도) : 고객이 얼마나 빈번하게 우리 상품을 구입했나?
 -Monetary Value (거래규모) : 고객이 구입했던 총 금액은 어느 정도인가?
-
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
-RFM Code example 
+**RFM Code example** 
 Ref.: https://zephyrus1111.tistory.com/16
