@@ -36,9 +36,9 @@ Code example Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering
 고객의 과거 구매이력을 바탕으로 고객군을 분류하는 기법. RFM은 Recency, Frequency, Monetary의 약자로 고객의 가치를 다음의 세 가지 기준에 의해 계산함. 대개 직전 과거 12개월을 대상으로 함
 
  *Three Metrics*
- - Recency (거래의 최근성) : 고객이 얼마나 최근에 구입했는가?
-  - Frequency (거래빈도) : 고객이 얼마나 빈번하게 우리 상품을 구입했나?
-  - Monetary Value (거래규모) : 고객이 구입했던 총 금액은 어느 정도인가?
+ 1.Recency (거래의 최근성) : 고객이 얼마나 최근에 구입했는가?
+ 2.Frequency (거래빈도) : 고객이 얼마나 빈번하게 우리 상품을 구입했나?
+ 3.Monetary Value (거래규모) : 고객이 구입했던 총 금액은 어느 정도인가?
 
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
