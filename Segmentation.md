@@ -38,7 +38,7 @@ Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
 -Recency (거래의 최근성) : 고객이 얼마나 최근에 구입했는가?
 -Frequency (거래빈도) : 고객이 얼마나 빈번하게 우리 상품을 구입했나?
 -Monetary Value (거래규모) : 고객이 구입했던 총 금액은 어느 정도인가?
- - Ref. : https://zephyrus1111.tistory.com/12?category=820621 https://zephyrus1111.tistory.com/16
+ - Ref. : https://zephyrus1111.tistory.com/12?category=820621 / https://zephyrus1111.tistory.com/16
  
 **RFM Code example** 
 Ref.: https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver
