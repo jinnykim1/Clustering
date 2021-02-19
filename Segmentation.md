@@ -15,7 +15,8 @@ k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측�
 2,3번 작업을 반복적으로 수행한다. 변화가 없으면 작업을 중단한다.
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
- Code example Ref.: https://www.kaggle.com/kushal1996/customer-segmentation-k-means-analysis
+ K-means Code example 
+ Ref.: https://www.kaggle.com/kushal1996/customer-segmentation-k-means-analysis
 
 ----------
 
@@ -25,7 +26,8 @@ k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측�
 
 - Ref. : http://blog.naver.com/PostView.nhn?blogId=samsjang&logNo=221019280298&parentCategoryNo=&categoryNo=&viewDate=&isShowPopularPosts=false&from=postView
 
-Code example Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
+Hirerarchical Clustering Code example 
+Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
 
 ----------
 
@@ -40,4 +42,5 @@ Code example Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering
 
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
-Code example Ref.: https://zephyrus1111.tistory.com/16
+RFM Code example 
+Ref.: https://zephyrus1111.tistory.com/16
