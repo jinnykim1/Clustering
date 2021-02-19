@@ -17,9 +17,7 @@ k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측�
  
  Code example Ref.: https://www.kaggle.com/kushal1996/customer-segmentation-k-means-analysis
 
-
 ----------
-
 
 **방법2)Hierarchical Clustering(계층적 군집분석)** 
 
