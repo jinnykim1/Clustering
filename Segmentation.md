@@ -86,7 +86,9 @@ Ref.: https://www.kaggle.com/ecedolen/machine-l-on-credit-card-customer-segmenta
 
 **방법7) Gaussian Mixture Model(GMM)**
 
- - Ref. : https://m.blog.naver.com/PostView.nhn?blogId=sw4r&logNo=221033034225&proxyReferer=https:%2F%2Fwww.google.com%2F
+ - Ref. : https://brunch.co.kr/@gimmesilver/40 (확률 분포 기반 클러스터링)
+ / http://bongholee.com/2020/10/%EA%B0%80%EC%9A%B0%EC%8B%9C%EC%95%88-%ED%98%BC%ED%95%A9%EB%AA%A8%EB%8D%B8gaussian-mixture-model/ 
+ / https://m.blog.naver.com/PostView.nhn?blogId=sw4r&logNo=221033034225&proxyReferer=https:%2F%2Fwww.google.com%2F
  
 **Gaussian Mixture Model Code example** 
 Ref.: https://www.kaggle.com/ektakashyap/mall-customer-segmentation-using-gaussian-mixture
