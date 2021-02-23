@@ -1,18 +1,17 @@
-
 customer segmentation
 =====================
 **방법1) Non-Hierarchical Clustering(비계층적 군집분석)1**
 
 K-means: n개의 데이터와 k(<=n)개의 중심점(centroid)이 주어졌을때 각 그룹 내의 데이터와 중심점 간의 비용(거리)을 최소화하는 방향으로 계속 업데이트를 해줌으로써 그룹화를 수행하는 기법
 
-1) 초기점(k) 설정
+1)초기점(k) 설정
 k는 중심점(centroid)이자, 묶일 그룹(cluster)의 수와 같다.
-2) 그룹(cluster) 부여
+2)그룹(cluster) 부여
 k개의 중심점(동그라미)과 개별 데이터(네모)간의 거리를 측정한다.
 가장 가까운 중심점으로 데이터를 부여한다.
-3) 중심점(centroid) 업데이트
+3)중심점(centroid) 업데이트
 할당된 데이터들의 평균값(mean)으로 새로운 중심점(centroid)을 업데이트한다.
-4) 최적화
+4)최적화
 2,3번 작업을 반복적으로 수행한다. 변화가 없으면 작업을 중단한다.
  - Ref. : https://yganalyst.github.io/ml/ML_clustering/#%EA%B5%B0%EC%A7%91%EB%B6%84%EC%84%9D%EC%9D%98-%EC%9C%A0%ED%98%95 
  
@@ -71,3 +70,23 @@ Ref.: https://zephyrus1111.tistory.com/16
  
 **Cohort Code example** 
 Ref.:https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver / https://workingwithpython.com/pythoncohortanalysis/
+
+----------
+
+**방법6) Spectral Clustering**
+서로 연결되어 있거나 바로 옆에 있는 대상이 같은 그룹. 두 대상의 거리가 매우 가깝더라도 대상이 연결되어 있지 않다면 같은 그룹으로 묶이지 않음.
+
+ - Ref. : https://brunch.co.kr/@mathpresso/11
+ 
+**Cohort Code example** 
+Ref.: https://www.kaggle.com/ecedolen/machine-l-on-credit-card-customer-segmentation 
+7.4 Spectral Clustering
+
+----------
+
+**방법7) Gaussian Mixture Model(GMM)**
+
+ - Ref. : https://m.blog.naver.com/PostView.nhn?blogId=sw4r&logNo=221033034225&proxyReferer=https:%2F%2Fwww.google.com%2F
+ 
+**Gaussian Mixture Model Code example** 
+Ref.: https://www.kaggle.com/ektakashyap/mall-customer-segmentation-using-gaussian-mixture
