@@ -56,7 +56,7 @@ Ref.: https://www.kaggle.com/kratibhadada/mall-customers-clustering-analysis
 -Recency (거래의 최근성) : 고객이 얼마나 최근에 구입했는가?
 -Frequency (거래빈도) : 고객이 얼마나 빈번하게 우리 상품을 구입했나?
 -Monetary Value (거래규모) : 고객이 구입했던 총 금액은 어느 정도인가?
- - Ref. : https://brunch.co.kr/@biginsight/43 / https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver (RFM 분석)
+ - Ref. : https://brunch.co.kr/@biginsight/43 / https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver RFM 분석
  
 **RFM Code example** 
 Ref.: https://zephyrus1111.tistory.com/16
@@ -65,9 +65,9 @@ Ref.: https://zephyrus1111.tistory.com/16
 
 **방법5) Cohort analysis**
 ‘특정 기간 특정 경험을 공유한 집단 간 행동패턴을 비교 및 분석’ . 분류된 그룹은 상호 베타적(mutually exclusive)
-
  - Ref. : https://blogs.adobe.com/digitaldialogue/data-driven-marketing-ko/cohort-analysis-for-effective-remarketing-kr/
  
+
 **Cohort Code example** 
 Ref.:https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver / https://workingwithpython.com/pythoncohortanalysis/
 
@@ -78,7 +78,7 @@ Ref.:https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver / http
 
  - Ref. : https://brunch.co.kr/@mathpresso/11
  
-**Cohort Code example** 
+**Spectral Code example** 
 Ref.: https://www.kaggle.com/ecedolen/machine-l-on-credit-card-customer-segmentation 
 7.4 Spectral Clustering
 
@@ -86,9 +86,40 @@ Ref.: https://www.kaggle.com/ecedolen/machine-l-on-credit-card-customer-segmenta
 
 **방법7) Gaussian Mixture Model(GMM)**
 
+개별 가우시안 모델들을 혼합하여 다양한 샘플데이터에도 강인하게 만든 모델
+* 여기서 분포는 가우시안 확률 분포에 한정하지 않음
+  - Ref.: https://throwexception.tistory.com/735
+
  - Ref. : https://brunch.co.kr/@gimmesilver/40 (확률 분포 기반 클러스터링)
  / http://bongholee.com/2020/10/%EA%B0%80%EC%9A%B0%EC%8B%9C%EC%95%88-%ED%98%BC%ED%95%A9%EB%AA%A8%EB%8D%B8gaussian-mixture-model/ 
  / https://m.blog.naver.com/PostView.nhn?blogId=sw4r&logNo=221033034225&proxyReferer=https:%2F%2Fwww.google.com%2F
  
 **Gaussian Mixture Model Code example** 
 Ref.: https://www.kaggle.com/ektakashyap/mall-customer-segmentation-using-gaussian-mixture
+
+
+----------
+정리
+1. RFM analysis
+세세한 세그먼테이션 보다는 고객에 대한 기본적인 분석을 하는데 적합한 분석법.
+Who are my best customers?
+Which customers are at the verge of churning?
+Who has the potential to be converted in more profitable customers?
+Who are lost customers that you don’t need to pay much attention to?
+Which customers you must retain?
+Who are your loyal customers?
+Which group of customers is most likely to respond to your current campaign?
+https://www.putler.com/rfm-analysis/
+
+2.kmeans
+가장 기본적인 기법. 
+단점1) 가중치와 거리 정의 필요. 2) 초기 클러스터링수 결정. 3) 결과 해석의 어려움
+https://lucy-the-marketer.kr/ko/growth/k-means-clustering-python-customer-data-analysis/
+
+3.Behavioral Cohort
+고객이 서비스 안에서 할 수 있는 특정 행동을 기준으로 그룹을 분류 후, 그룹의 행동패턴을 비교/분석합니다. 지표 값과 특정 행동간의 상관관계를 파악할 수 있습니다. 단, 인과관계는 설명하지 못하는 한계가 있습니다. A/B 테스트, 다변량 테스트 등을 통하여 인과관계(일 가능성이 높은 것)을 찾아낼 수 있습니다.
+
+게시글 수 3개 이상, 친구 추가 100명 이상 등, 서비스 내 모든 액션에 대해서 가능합니다.
+복수의 행동에 대해서도 그룹을 분류 할 수 있습니다.
+eg. 친구가 100명 이상이면서 게시글이 3개 이상인 그룹 등
+ - Behavioral Cohort more information: https://blog.amplitude.com/guide-to-behavioral-cohorting
