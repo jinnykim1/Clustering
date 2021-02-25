@@ -100,6 +100,8 @@ Ref.: https://www.kaggle.com/ektakashyap/mall-customer-segmentation-using-gaussi
 
 ----------
 **정리**
+
+
 1.RFM analysis
 세세한 세그먼테이션 보다는 고객에 대한 기본적인 분석을 하는데 적합한 분석법.
 Who are my best customers?
