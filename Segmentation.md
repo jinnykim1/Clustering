@@ -99,8 +99,8 @@ Ref.: https://www.kaggle.com/ektakashyap/mall-customer-segmentation-using-gaussi
 
 
 ----------
-정리
-1. RFM analysis
+**정리**
+1.RFM analysis
 세세한 세그먼테이션 보다는 고객에 대한 기본적인 분석을 하는데 적합한 분석법.
 Who are my best customers?
 Which customers are at the verge of churning?
@@ -114,6 +114,7 @@ https://www.putler.com/rfm-analysis/
 2.kmeans
 가장 기본적인 기법. 
 단점1) 가중치와 거리 정의 필요. 2) 초기 클러스터링수 결정. 3) 결과 해석의 어려움
+
 https://lucy-the-marketer.kr/ko/growth/k-means-clustering-python-customer-data-analysis/
 
 3.Behavioral Cohort
