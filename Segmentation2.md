@@ -78,6 +78,8 @@ distinct values of property: 분석 중인 특정 값 또는 값 집합까지 �
 6. 이벤트나 추가 조건 설정 가능(And also/ And not who)
 
 Microscope 기능을 이용해 특정 고객들의 Cohort를 별도로 생성 후 분석 가능
+reference: https://blog.ab180.co/posts/amplitude-retention
+
 Composition with cross property values
 Retention if you have multiple returning events
 Usage interval view in retention
