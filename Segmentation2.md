@@ -90,37 +90,6 @@ Event segmentation for properties (PropSum + PropAvg)
 Any chart depending on a different cohort
 
 
-----------
-
-
-## Behavioral cohorts: identify users with similar behaviors ##
-
-Behavioral cohorts: user actions taken within a specific time period
-1. Click New => Cohort
-2. Click any of the conditions(**performed event,** had been active, had been new, had property, had propensity)
-3. dropdown and select the event you are interested in
-count events: four options 
-count: 이벤트 발생 횟수(최근 30일 동안 favorite song or video를 다섯 번 이상 실행한 모든 사용자)
-relative count: 두 이벤트 빈도를 비교 (30일 동안 Play Song or Video보다 favorite song or video를 더 큰 빈도로 실행한 사용자)
-total sum of property: 특정 이벤트나 사용자 속성 합계를 사용해 이벤트 실행한 사용자(최근 30일 동안 총 지속 시간 값이 60초 이상 play or search song을 실행한 모든 사용자)
-distinct values of property: 분석 중인 특정 값 또는 값 집합까지 이벤트나 사용자 속성을 필터링(둘 이상의 장치에서 favorite song or video 사용자)
-4. set the operator(equal to, greater than, less than, etc) and the value (i.e., the count value) of this parameter.
-5. 이벤트가 일어나는 기간 설정(During/Since/Within)
-6. 이벤트나 추가 조건 설정 가능(And also/ And not who)
-
-Microscope 기능을 이용해 특정 고객들의 Cohort를 별도로 생성 후 분석 가능
-reference: https://blog.ab180.co/posts/amplitude-retention
-
-Composition with cross property values
-Retention if you have multiple returning events
-Usage interval view in retention
-Funnels with exclusion events
-Funnels with constant property group-bys
-Distribution views in funnels (Time to Convert + Frequency)
-Event segmentation for properties (PropSum + PropAvg)
-Any chart depending on a different cohort
-
-
 
 ----------
 
