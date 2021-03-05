@@ -96,11 +96,9 @@ Any chart depending on a different cohort
 
 ## Customer-segmentation-and-consumer-behavior-analysis ##
 
-Topic1
-
 80/20 rule (Pareto principle)- 파레토법칙
 
- - top 20% 의 customer/products/geographic location이 80%의 수익 창출
+Topic1
 
  - 구매 행동을 기준으로 소비자 세그먼트
 k-means clustering algorithm 사용
@@ -114,7 +112,7 @@ Elbow method 이용 optimal number of segments: 3
 
 
 Topic2
-
+ - top 20% 의 customer/products/geographic location이 80%의 수익 창출
 
 1. customer ID별로 Revenue 총합 도출 
 customer ID의 top 25%(4334명 중 1084명)의 Revenue 총합을 구하면 전체 Revenue의 79%가 도출 됨 
