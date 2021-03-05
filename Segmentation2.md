@@ -47,9 +47,9 @@ elbow method 사용해서 eps 찾아냄
 k-means는 conversion rates를 기준으로도 clustering 가능
 
 4개의 segment로 나뉨
-1. received BOGO offers
+1. BOGO offers O/ Discount offers X
 2. BOGOs and discounts 전환 높음. 빈번한 구매
-3. receive no BOGO offers. offers없이도 평균적인 구매는 이루어질 것
+3. BOGO offers X/ offers없이도 평균적인 구매는 이루어질 것
 4. receive regular offers but never convert/ male, low income (==>마케팅에서 제외할 segment)
 
 **conclusion**
