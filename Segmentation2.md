@@ -125,3 +125,23 @@ products의 top 20%(3877개 중 775개)의 Revenue 총합을 구하면 전체 Re
 top 10 countries를 시각화하면 UK가 압도적. 
 bottom 10 countries 확인(why...?)
 UK 한 국가가 82%의 Revenue 창출
+
+
+----------
+
+## 기타 ##
+1.  RFM 문제점
+- RFM 모형에 의하여 각 집단의 서열화를 직접적으로 구할 수 없음
+ex) R과 F 둘이 모두 높은 고객집단과 R과 F가 중간 수준인 고객집단이 있을 때 어느 집단이 더 우수한 고객집단이라고 할 수 있는가에 대해 판단 할 수 있는 방법이 없음
+- R, F, M 각각의 변수에 1:1:1의 가중치를 부여하고 있으나 고객의 진정한 가치를 측정하기에는 미흡
+고객의 가치를 평가함에 있어 상품과 서비스의 종류에 따라 다르다고 할 수 있는데, RFM 모형에서는 이를 고려하지 않고 각 요소의 비중을 동일하게 취급
+ref: http://areport.iwinv.net/archives/58002
+
+
+2.  kmeans 변수 예시
+https://www.kaggle.com/abbasheera/kmeans-for-credit-card-usage
+
+
+
+
+
