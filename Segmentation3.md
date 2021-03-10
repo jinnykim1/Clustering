@@ -10,7 +10,7 @@ Elbow method 이용 optimal number of segments: 3
  - k-means 결과 3개의 segments로 분류
 1. channel과 region을 dummy로 만들어서 segment별 분류
 ==> majority of customers are from Channel 2 / Region 3
-dummy로 만드는 이유 생각해보기
+**dummy로 만드는 이유 생각해보기**
 
 REGION Frequency
 Lisbon 77
@@ -24,29 +24,12 @@ Retail 142
 Total 440
 
 scikit-learn은 문자열 값을 입력값으로 허락하지 않기 때문에 숫자형으로 인코딩
-하지만, 1, 2, 3 같이 변경하고 예측하면 잘못된 관계를 형성할 수 있음
+하지만, 1, 2, 3 같이 변경하고 예측하면 잘못된 관계를 형성할 수 있음(1+2=3)
 ⇒ 고유 값의 개수만큼 컬럼 만들어 예측
-
 
 2. Product별 분류
 ==> product별로 주요 segment가 다름
 
-
-
-Topic2
- - top 20% 의 customer/products/geographic location이 80%의 수익 창출
-
-1. customer ID별로 Revenue 총합 도출 
-customer ID의 top 25%(4334명 중 1084명)의 Revenue 총합을 구하면 전체 Revenue의 79%가 도출 됨 
-(하지만 retail industry의 특성상 나머지 75% customer도 추후에 target이 될 수 있음을 배제하면 X)
-
-2.  product별로 Revenue 총합 도출
-products의 top 20%(3877개 중 775개)의 Revenue 총합을 구하면 전체 Revenue의 79%
-
-3.   country별로 Revenue 총합 도출
-top 10 countries를 시각화하면 UK가 압도적. 
-bottom 10 countries 확인(why...?)
-UK 한 국가가 82%의 Revenue 창출
 
 ----------
 
@@ -96,3 +79,41 @@ Results
 This research provides evidence that members of different generational cohorts possess different attitudes about hygiene, location and entertainment attributes of a shopping mall.
 
 https://www.researchgate.net/profile/Vanessa-Jackson-6/publication/232407862_Mall_attributes_and_shopping_value_Differences_by_gender_and_generational_cohort/links/5a215e3aa6fdcc6a18bdd851/Mall-attributes-and-shopping-value-Differences-by-gender-and-generational-cohort.pdf
+
+
+----------
+##가상 쇼핑몰 고객 주문 데이터##
+data set
+온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
+약 500,000건의 데이터
+출처: UCI ML Repository
+
+매출, 가장 많이 팔린 아이템 확인/ 월별 top3 아이템 판매량 추이
+시간별, 지역별 가장 많이 팔린 아이템 확인
+우수 고객 선별(가장 소비를 많이 한 고객)- 고객 코호트 분석
+ -  구매 횟수 기준
+ retail.groupby('CustomerID').count()['Quantity'].sort_values(ascending=False)
+ -  지불 금액 기준
+ retail.groupby('CustomerID').count()['CheckoutPrice'].sort_values(ascending=False)
+
+월간 사용자 cohort를 바탕으로 월별 재구매율(retention) 분석하기
+heatmap 사용 
+
+첫구매 월 / 재구매 월
+기준이 되는 월과 그 월로부터 지난 기간의 고객 수를 계산
+
+
+----------
+##Unsupervised Learning- A Road to Customer Segmentation##
+
+The first step towards the road to individual personal customization is group-of-many or as we call it fondly- Segmentation.
+
+ - 2 very basic characteristics of a good segment
+1. the segments in which the customers belong to should not change too much with time.
+2.  to ensure that the segment is designed based on the use case.
+
+RFM segmentation 
+Example) 2 customers both of whom have spent $1000 in the last one month on a mobile phone e-commerce platform
+1. the young technologist who purchased Apple i-Phone and is likely to purchase a phone whenever a new Apple product is launched
+2. the other person who made a purchase because his/her last phone was outdated after years of use.
+⇒ same category
