@@ -33,7 +33,7 @@ scikit-learn은 문자열 값을 입력값으로 허락하지 않기 때문에 �
 
 ----------
 
-## House Price Prediction ##
+## House Price Prediction##
 
 Using Linear Regression Model
 
@@ -71,7 +71,7 @@ https://www.kaggle.com/faressayah/linear-regression-house-price-prediction#1.-Li
 
 
 ----------
-## Behavioral Cohort Studies ##
+##Behavioral Cohort Studies##
 
 Gender & Generation Cohort
 
@@ -82,7 +82,7 @@ https://www.researchgate.net/profile/Vanessa-Jackson-6/publication/232407862_Mal
 
 
 ----------
-## 가상 쇼핑몰 고객 주문 데이터 ##
+##가상 쇼핑몰 고객 주문 데이터##
 data set
 온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
 약 500,000건의 데이터
@@ -104,16 +104,38 @@ heatmap 사용
 
 
 ----------
-## Unsupervised Learning- A Road to Customer Segmentation ##
+## Unsupervised Learning- A Road to Customer Segmentation##
 
 The first step towards the road to individual personal customization is group-of-many or as we call it fondly- Segmentation.
 
  - 2 very basic characteristics of a good segment
-1. the segments in which the customers belong to should not change too much with time.
-2.  to ensure that the segment is designed based on the use case.
+1. the segments in which the customers belong to should not change too much with time.(세그먼트가 자주 바뀌면 안됨)
+2.  to ensure that the segment is designed based on the use case.(이전에 사용했던 사례를 바탕으로 세그먼트 만들기)
 
 RFM segmentation 
-Example) 2 customers both of whom have spent $1000 in the last one month on a mobile phone e-commerce platform
-1. the young technologist who purchased Apple i-Phone and is likely to purchase a phone whenever a new Apple product is launched
-2. the other person who made a purchase because his/her last phone was outdated after years of use.
-⇒ same category
+Example) 2 customers both of whom have spent $1000 in the last one month on a mobile phone e-commerce platform(두 명의 구매는 같은 조건)
+1. the young technologist who purchased Apple i-Phone and is likely to purchase a phone whenever a new Apple product is launched(애플 마니아)
+2. the other person who made a purchase because his/her last phone was outdated after years of use.(오래 쓴 폰..)
+⇒ same category (동기나 이전의 행동패턴을 알 수 없기 때문에 같은 카테고리로 분류되어 같은 마케팅 대상이 될 수 있음)
+
+Example)
+- Transaction ID: Unique number for each line item.(각 행 고유번호⇒ 인덱스가 됨)
+- Customer ID: Unique hashed number for each customer.(고객 아이디)
+- Number of tickets: How many tickets were purchased by that person.(티켓 수/연속 변수)
+- Ticket Type: What type of tickets were purchased for each purchased ticket(티켓 종류/ adult;adult같은 표시 dummy화 함)
+- Cinema Site: Suburb for each of the cinema locations.(영화관 위치)
+- Date and Time of Show(날짜, 시간)
+- Name of the film(영화 제목)
+
+OMBD api 를 통해 데이터 수집. 한 영화의 링크에 있는 숫자로 통일
+개봉날짜는 영화가 상영된 첫번째 날짜로 하는 check 수행
+
+결과 값으로 사용자와 영화 데이터 간의 관련성을 표현할 수 있음 
+(ex. 각각의 위치에서 몇 명의 고객이 어떤 영화 장르를 봤는지, 어떤 티켓 종류를 이용했는지... 등등)
+
+17개의 영화관 위치 
+Assumption : 고객은 자신의 집과 가까이 위치한 영화관에서 영화를 본다.
+세그멘테이션을 위한 여러 알고리즘을 시도
+⇒ 우선 지역으로 군집화 작업을 해서 다른 위치를 생각해 낼 수 있는지 알아봄
+⇒ 같은 cluster number를 사용하여 post-hoc test를 수행하여 '위치가 다르다'는 사실이 '영화 행동'에 차이를 일으키는지의 인과 관계를 테스트
+⇒ Hierarchical clustering에서 가장 좋은 결과를 얻음
