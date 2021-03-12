@@ -1,4 +1,4 @@
-##Unsupervised Learning- A Road to Customer Segmentation##
+## Unsupervised Learning- A Road to Customer Segmentation##
 
 The first step towards the road to individual personal customization is group-of-many or as we call it fondly- Segmentation.
 
@@ -74,7 +74,7 @@ Three Clusters
 고객의 home location postcodes, gender, work location etc가 주어졌다면 더 정확한 클러스터 형성 가능했을 듯
 
 ----------
-##가상 쇼핑몰 고객 주문 데이터 ##
+## 가상 쇼핑몰 고객 주문 데이터 ##
 data set
 온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
 약 500,000건의 데이터
@@ -86,20 +86,233 @@ data set
 분석 목표
 1.매출, 가장 많이 팔린 아이템 확인
 
- - 시간별, 지역별 가장 많이 팔린 아이템 확인
-월별 매출, 요일별 매출, 시간별 매출...
- - 제품별 metrics 
-Top10 판매 제품, Top10 매출 제품
- - 월별 top3 아이템 판매량 추이
+ - 시간별, 지역별 가장 많이 팔린 아이템
+월별 총매출(11월이 가장 높지만 12월의 전체 데이터 반영X), 
+요일별 총매출(토요일 데이터 없음, 목요일까지 증가세 이후 하락), 
+시간별 매출(12시까지 증가세, 3시 이후 급락)
+(현상파악==>가설 생성==>확인)
+
+- 제품별 metrics 
+Top10 판매 제품(Quantity), Top10 매출 제품(CheckoutPrice)
+ - 월별 top3 아이템 판매량 추이(Quantity,CheckoutPrice)
 
 2.우수 고객 선별(가장 소비를 많이 한 고객)- 고객 코호트 분석
+
+목표
+1. 우수 고객 확인
  -  구매 횟수 기준
- retail.groupby('CustomerID').count()['Quantity'].sort_values(ascending=False)
+CustomerID, Quantity
  -  지불 금액 기준
- retail.groupby('CustomerID').count()['CheckoutPrice'].sort_values(ascending=False)
+CustomerID, CheckoutPrice
 
-월간 사용자 cohort를 바탕으로 월별 재구매율(retention) 분석하기
-heatmap 사용 
+2. 월간 사용자 cohort를 바탕으로 월별 재구매율(retention) 분석하기
+heatmap 사용
+==> 첫 주부터 일주일이 지날 때마다 재구매율이 얼마나 줄어드는지 확인
+사용자 기준으로 최초 구매한 월 계산(retail['MonthStarted'] = month_group.transform(np.min))
 
-첫구매 월 / 재구매 월
-기준이 되는 월과 그 월로부터 지난 기간의 고객 수를 계산
+==> 기준이 되는 월과 실제 구매 월의 차이 계산
+(retail['MonthPassed'] = (retail['Month'].dt.year - retail['MonthStarted'].dt.year) * 12 + (retail['Month'].dt.month - retail['MonthStarted'].dt.month)
+
+==> 기준 월과 MonthPassed를 기준으로 고객 카운팅
+각 기준 월에서 몇 달이 지났는지에 따라 구간을 나누고 각 구간별 고객의 수
+
+==> pivot 함수 이용 테이블 변경
+71
+
+2. 새로운 영화관 위치나 ROI(투자 수익율) 예측
+
+72
+
+3. 어느 지역에 어떤 장르의 영화를 마케팅 할지
+
+73
+
+
+
+74
+
+고객의 home location postcodes, gender, work location etc가 주어졌다면 더 정확한 클러스터 형성 가능했을 듯
+
+75
+
+
+
+76
+
+----------
+
+77
+
+## 가상 쇼핑몰 고객 주문 데이터 ##
+
+78
+
+data set
+
+79
+
+온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
+
+80
+
+약 500,000건의 데이터
+
+81
+
+출처: UCI ML Repository
+
+82
+
+
+
+83
+
+변수: 주문번호/ 아이템 아이디/ 상품 설명/ 상품 주문 수량/ 주문 시각/ 상품 가격/ 고객 아이디/ 고객 거주 지역(국가)
+
+84
+
++) Quantity * UnitPrice; 고객의 총 지출 비용(CheckoutPrice)
+
+85
+
+
+
+86
+
+분석 목표
+
+87
+
+1.매출, 가장 많이 팔린 아이템 확인
+
+88
+
+
+
+89
+
+ - 시간별, 지역별 가장 많이 팔린 아이템
+
+90
+
+월별 총매출(11월이 가장 높지만 12월의 전체 데이터 반영X), 
+
+91
+
+요일별 총매출(토요일 데이터 없음, 목요일까지 증가세 이후 하락), 
+
+92
+
+시간별 매출(12시까지 증가세, 3시 이후 급락)
+
+93
+
+(현상파악==>가설 생성==>확인)
+
+94
+
+
+
+95
+
+- 제품별 metrics 
+
+96
+
+Top10 판매 제품(Quantity), Top10 매출 제품(CheckoutPrice)
+
+97
+
+ - 월별 top3 아이템 판매량 추이(Quantity,CheckoutPrice)
+
+98
+
+
+
+99
+
+2.우수 고객 선별(가장 소비를 많이 한 고객)- 고객 코호트 분석
+
+100
+
+
+
+101
+
+목표
+
+102
+
+1. 우수 고객 확인
+
+103
+
+ -  구매 횟수 기준
+
+104
+
+CustomerID, Quantity
+
+105
+
+ -  지불 금액 기준
+
+106
+
+CustomerID, CheckoutPrice
+
+107
+
+
+
+108
+
+2. 월간 사용자 cohort를 바탕으로 월별 재구매율(retention) 분석하기
+
+109
+
+heatmap 사용
+
+110
+
+==> 첫 주부터 일주일이 지날 때마다 재구매율이 얼마나 줄어드는지 확인
+
+111
+
+사용자 기준으로 최초 구매한 월 계산(retail['MonthStarted'] = month_group.transform(np.min))
+
+112
+
+
+
+113
+
+==> 기준이 되는 월과 실제 구매 월의 차이 계산
+
+114
+
+(retail['MonthPassed'] = (retail['Month'].dt.year - retail['MonthStarted'].dt.year) * 12 + (retail['Month'].dt.month - retail['MonthStarted'].dt.month)
+
+115
+
+
+
+116
+
+==> 기준 월과 MonthPassed를 기준으로 고객 카운팅
+
+117
+
+각 기준 월에서 몇 달이 지났는지에 따라 구간을 나누고 각 구간별 고객의 수
+
+118
+
+
+
+119
+
+==> pivot 함수 이용 테이블 변경
+
+120
+
+==> heatmap으로 시각화
