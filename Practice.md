@@ -11,9 +11,8 @@
 https://colab.research.google.com/drive/1x5FH6lSVBSDfnfovtMesMVwFBJkWmcMd?usp=sharing
 
 
-
-
-- 클러스터링 1-RFM
+----------
+**클러스터링 1-RFM**
 코드
 https://colab.research.google.com/drive/18VI_BFb-fdXlT_IXhogzR6npMs6qygbN#scrollTo=VhV6RI0V4Yds
 
