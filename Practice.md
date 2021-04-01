@@ -16,4 +16,11 @@ https://colab.research.google.com/drive/1x5FH6lSVBSDfnfovtMesMVwFBJkWmcMd?usp=sh
 코드
 https://colab.research.google.com/drive/18VI_BFb-fdXlT_IXhogzR6npMs6qygbN#scrollTo=VhV6RI0V4Yds
 
-Ref: https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver
+Ref.: https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver
+
+----------
+**클러스터링 2-K-means & 클러스터링 3-Hierarchical Clustering**
+코드
+https://colab.research.google.com/drive/1_YBECbXrhpmtp4Q5v849kz9PGYPjjPal#scrollTo=SQJ5C4pQXg14
+
+Ref.: https://www.kaggle.com/hellbuoy/online-retail-k-means-hierarchical-clustering
