@@ -7,27 +7,31 @@
 
 3.파이썬 사용
 
-코드
+코드 구현
+
 https://colab.research.google.com/drive/1x5FH6lSVBSDfnfovtMesMVwFBJkWmcMd?usp=sharing
 
 
 ----------
 **클러스터링 1-RFM**
-코드
+코드 구현
+
 https://colab.research.google.com/drive/18VI_BFb-fdXlT_IXhogzR6npMs6qygbN#scrollTo=VhV6RI0V4Yds
 
 Ref.: https://www.kaggle.com/hokyun/basic-customer-segmentation-korean-ver
 
 ----------
 **클러스터링 2-K-means & 클러스터링 3-Hierarchical Clustering**
-코드
+코드 구현
+
 https://colab.research.google.com/drive/1_YBECbXrhpmtp4Q5v849kz9PGYPjjPal#scrollTo=SQJ5C4pQXg14
 
 Ref.: https://www.kaggle.com/hellbuoy/online-retail-k-means-hierarchical-clustering
 
 ----------
 **클러스터링 4-K-means에 rfm score 대입**
-코드
+코드 구현
+
 https://colab.research.google.com/drive/1W_ql3UBiTQYT7kfwpS4yYGn_HytmaBfv#scrollTo=fbJbbof31Lpq
 
 ----------
@@ -37,6 +41,10 @@ https://colab.research.google.com/drive/1W_ql3UBiTQYT7kfwpS4yYGn_HytmaBfv#scroll
 
 **Random Forest(의사결정나무)**
 https://m.blog.naver.com/PostView.nhn?blogId=gywlsangel&logNo=221345700705&proxyReferer=https:%2F%2Fwww.google.com%2F
+
+코드 구현
+
+https://colab.research.google.com/drive/1hvyOlJheX-a6m2zKfEKZGpz8Ufea9qZv#scrollTo=edV07z2Q-uL1
 
 ----------
 **시계열 데이터 분석**
