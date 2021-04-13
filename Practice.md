@@ -57,3 +57,12 @@ https://dacon.io/competitions/official/42473/codeshare/427?page=1&dtype=recent
 
 2) Prophet Forecasting Library
 https://dining-developer.tistory.com/25
+
+3) 제주 신용카드
+https://dacon.io/competitions/official/235615/codeshare/1228?page=2&dtype=recent
+4) 포스트 코로나 소비패턴
+https://dacon.io/competitions/official/235618/codeshare/1524?page=1&dtype=recent
+5) 신용카드 매출 예측
+https://dacon.io/competitions/official/140472/codeshare/1734?page=1&dtype=recent
+https://dacon.io/competitions/official/140472/codeshare/953?page=1&dtype=recent
+
