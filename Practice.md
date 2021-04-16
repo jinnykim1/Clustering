@@ -51,6 +51,8 @@ https://colab.research.google.com/drive/1hvyOlJheX-a6m2zKfEKZGpz8Ufea9qZv#scroll
 정리
 https://post.naver.com/viewer/postView.nhn?volumeNo=28094462&memberNo=18071586
 
+https://m.blog.naver.com/bluefish850/220749045909
+
 코드 예시
 1) 요일별 월별 세분화
 https://dacon.io/competitions/official/42473/codeshare/427?page=1&dtype=recent
