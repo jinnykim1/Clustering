@@ -72,7 +72,7 @@ target: 이용금액(원)
 4) 포스트 코로나 소비패턴
 https://dacon.io/competitions/official/235618/codeshare/1524?page=1&dtype=recent
 
-5) 신용카드 매출 예측
+5) ~~신용카드 매출 예측~~ (4/16 리뷰)
 https://dacon.io/competitions/official/140472/codeshare/1734?page=1&dtype=recent
 https://dacon.io/competitions/official/140472/codeshare/953?page=1&dtype=recent
 
@@ -90,7 +90,7 @@ ARIMA 모델 사용
 
 
 
-6)2020 D CUP Google Analytics 데이터
+6)~~2020 D CUP Google Analytics 데이터~~(4/16 리뷰)
 https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
 
 시간별로 된 데이터를 일별로 수정. 
@@ -102,3 +102,9 @@ https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
 
 여러 모델 중 LR이 성능이 가장 좋아서 LR사용
 
+
+7) 아파트 실거래가 예측
+https://dacon.io/competitions/official/21265/codeshare/439?page=1&dtype=recent
+
+8) House Price Prediction
+https://www.kaggle.com/faressayah/linear-regression-house-price-prediction
