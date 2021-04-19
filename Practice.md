@@ -1,3 +1,4 @@
+
 ## 바닐라코 고객 코호트 분석
 1.목적: 구매 retention 확인
 
@@ -87,8 +88,7 @@ https://dacon.io/competitions/official/140472/codeshare/953?page=1&dtype=recent
 
 ARIMA 모델 사용
 - 단순 correlation가 선형관계가 있다면 추세(cointegration)관계까지 고려.
-
-
+- 
 
 6)~~2020 D CUP Google Analytics 데이터~~(4/16 리뷰)
 https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
@@ -102,9 +102,35 @@ https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
 
 여러 모델 중 LR이 성능이 가장 좋아서 LR사용
 
+[바닐라코 데이터 적용]
+Promotion = Competition
+Promotion product = Competition result
+필요 변수: 프로모션 시작/종료 일자 (날짜별 프로모션 시작/종료 수)
+프로모션 제품 구입 여부(날짜별 제품 구입 횟수)
+해당 제품이 구매 된 프로모션 수
+고객(프로모션 제품 구매 고객 수)
+날짜별 로그인 수
+날짜별 접속한 유저 수
+날짜별 사용한 플랫폼 수
+날짜별 사용한 브라우저 수
+날짜별 가입 유저 수
+요일, 주말 여부
+
 
 7) 아파트 실거래가 예측
 https://dacon.io/competitions/official/21265/codeshare/439?page=1&dtype=recent
 
 8) House Price Prediction
 https://www.kaggle.com/faressayah/linear-regression-house-price-prediction
+
+데이터 셋
+같은 지역의 거주자 평균 소득
+같은 지역의 평균 주택 년수
+같은 지역 주택의 평균 방 개수
+같은 지역 주택의 평균 화장실 개수
+주택 지역의 인구 수
+주택 가격
+주택 주소
+Linear Regression Model ⇒ y: Price
+RANSAC Regression 
+https://gnaseel.tistory.com/33
