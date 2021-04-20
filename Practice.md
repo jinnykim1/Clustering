@@ -105,16 +105,37 @@ https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
 [바닐라코 데이터 적용]
 Promotion = Competition
 Promotion product = Competition result
-필요 변수: 프로모션 시작/종료 일자 (날짜별 프로모션 시작/종료 수)
-프로모션 제품 구입 여부(날짜별 제품 구입 횟수)
-해당 제품이 구매 된 프로모션 수
-고객(프로모션 제품 구매 고객 수)
+
+필요 변수: 
+train 데이터
+date, 사용자 수, 세션 수, 신규방문자 수, 페이지뷰 수 
+
+promotion 데이터
+프로모션 시작, 종료 일자 (날짜별 프로모션 시작/종료 수),
+프로모션명, 제품명 (파생: 날짜별 프로모션과 제품이 구입된 횟수)
+==>프로모션 별로 제품이 하나인지 여러개인지 확인
+
+user 데이터
+date, user id (날짜별 가입 유저 수)
+
+login 데이터
+date, user id, login id(==>?), platform, browser
 날짜별 로그인 수
 날짜별 접속한 유저 수
 날짜별 사용한 플랫폼 수
 날짜별 사용한 브라우저 수
-날짜별 가입 유저 수
-요일, 주말 여부
+
+submission 데이터 
+date, user id, 프로모션명, 제품명
+날짜별 총 제품 구입 횟수, 날짜별 구매가 일어난 프로모션 제품 수, 구입한 고객 수
+
+파생: 요일, 주말 여부
+
+정리: date, 사용자 수, 세션 수, 신규방문자 수, 페이지뷰 수 
+프로모션 시작/종료 일자, 프로모션명, 구매제품명
+date, user id
+date, user id(방문시 부여되는 id), login id(로그인 한 id), ~~platform, browser~~
+date, user id, 프로모션명, 제품명
 
 
 7) 아파트 실거래가 예측
