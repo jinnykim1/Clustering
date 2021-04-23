@@ -1,4 +1,5 @@
 
+
 ## 바닐라코 고객 코호트 분석
 1.목적: 구매 retention 확인
 
@@ -55,13 +56,14 @@ https://post.naver.com/viewer/postView.nhn?volumeNo=28094462&memberNo=18071586
 https://m.blog.naver.com/bluefish850/220749045909
 
 코드 예시
-1) 요일별 월별 세분화
+
+ 1. 요일별 월별 세분화
 https://dacon.io/competitions/official/42473/codeshare/427?page=1&dtype=recent
 
-2) Prophet Forecasting Library
+ 2. Prophet Forecasting Library
 https://dining-developer.tistory.com/25
 
-3) 제주 신용카드
+ 3.  제주 신용카드
 https://dacon.io/competitions/official/235615/codeshare/1228?page=2&dtype=recent
 
 ==> features: 이용고객수(명), 이용건수(건), 이용금액(원)
@@ -69,11 +71,9 @@ target: 이용금액(원)
 
 ==> 연/월별 업종,카드사용지역,거주지역,연령,성별,생애주기에 따른 차이를 그래프로 확인
 
-
-4) 포스트 코로나 소비패턴
+4. 포스트 코로나 소비패턴
 https://dacon.io/competitions/official/235618/codeshare/1524?page=1&dtype=recent
-
-5) ~~신용카드 매출 예측~~ (4/16 리뷰)
+ 5.  ~~신용카드 매출 예측~~ (4/16 리뷰)
 https://dacon.io/competitions/official/140472/codeshare/1734?page=1&dtype=recent
 https://dacon.io/competitions/official/140472/codeshare/953?page=1&dtype=recent
 
@@ -87,10 +87,9 @@ https://dacon.io/competitions/official/140472/codeshare/953?page=1&dtype=recent
 각 상점별 매출 특성과 분포가 다르므로 개별적인 시계열 모델링
 
 ARIMA 모델 사용
-- 단순 correlation가 선형관계가 있다면 추세(cointegration)관계까지 고려.
-- 
+단순 correlation가 선형관계가 있다면 추세(cointegration)관계까지 고려.
 
-6)~~2020 D CUP Google Analytics 데이터~~(4/16 리뷰)
+ 6.~~2020 D CUP Google Analytics 데이터~~(4/16 리뷰)
 https://dacon.io/competitions/official/235683/codeshare/2341?page=1&dtype=recent
 
 시간별로 된 데이터를 일별로 수정. 
@@ -138,10 +137,10 @@ date, user id(방문시 부여되는 id), login id(로그인 한 id), ~~platform
 date, user id, 프로모션명, 제품명
 
 
-7) 아파트 실거래가 예측
+7. ~~아파트 실거래가 예측~~
 https://dacon.io/competitions/official/21265/codeshare/439?page=1&dtype=recent
 
-8) House Price Prediction
+8. ~~House Price Prediction~~
 https://www.kaggle.com/faressayah/linear-regression-house-price-prediction
 
 데이터 셋
@@ -155,3 +154,7 @@ https://www.kaggle.com/faressayah/linear-regression-house-price-prediction
 Linear Regression Model ⇒ y: Price
 RANSAC Regression 
 https://gnaseel.tistory.com/33
+
+9. 전력수요량(참고)
+
+https://dacon.io/competitions/official/196878/codeshare/416?page=1&dtype=recent
