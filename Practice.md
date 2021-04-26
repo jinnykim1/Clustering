@@ -37,6 +37,9 @@ Ref.: https://www.kaggle.com/hellbuoy/online-retail-k-means-hierarchical-cluster
 https://colab.research.google.com/drive/1W_ql3UBiTQYT7kfwpS4yYGn_HytmaBfv#scrollTo=fbJbbof31Lpq
 
 ----------
+****
+
+----------
 **앙상블 기법(ensemble method)**
 더 좋은 예측 성능을 얻기 위해 다수의 학습 알고리즘을 사용하는 방법
 (배깅, 랜덤포레스트, 부스팅...)
@@ -155,6 +158,13 @@ Linear Regression Model ⇒ y: Price
 RANSAC Regression 
 https://gnaseel.tistory.com/33
 
-9. 전력수요량(참고)
+9. 전력수요량
 
 https://dacon.io/competitions/official/196878/codeshare/416?page=1&dtype=recent
+
+weather_hour (온도)데이터 없음
+일시와 기온 사용
+전주에 사용한 전력량의 표준편차, 평균 사용
+시간 컬럼 ⇒ month, week, weekday, day, hour 각각 생성, 주말/휴일 여부, 다음날
+target 변수 이상치 제거 3sigma
+시간이 i인 행의 target 값이 시간이 i인 행에서 그 시간 보다 작으면 0으로 채우고, 크면 그대로 한 것의 평균값에 표준편차의 3배를 곱한다..?
