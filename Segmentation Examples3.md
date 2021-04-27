@@ -1,4 +1,4 @@
-## Unsupervised Learning- A Road to Customer Segmentation##
+## Unsupervised Learning- A Road to Customer Segmentation ##
 
 The first step towards the road to individual personal customization is group-of-many or as we call it fondly- Segmentation.
 
@@ -75,6 +75,22 @@ Three Clusters
 
 ----------
 ## 가상 쇼핑몰 고객 주문 데이터 ##
+
+매출, 가장 많이 팔린 아이템 확인/ 월별 top3 아이템 판매량 추이
+시간별, 지역별 가장 많이 팔린 아이템 확인
+우수 고객 선별(가장 소비를 많이 한 고객)- 고객 코호트 분석
+ -  구매 횟수 기준
+ retail.groupby('CustomerID').count()['Quantity'].sort_values(ascending=False)
+ -  지불 금액 기준
+ retail.groupby('CustomerID').count()['CheckoutPrice'].sort_values(ascending=False)
+
+월간 사용자 cohort를 바탕으로 월별 재구매율(retention) 분석하기
+heatmap 사용 
+
+첫구매 월 / 재구매 월
+기준이 되는 월과 그 월로부터 지난 기간의 고객 수를 계산
+
+
 data set
 온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
 약 500,000건의 데이터
