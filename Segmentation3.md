@@ -33,7 +33,7 @@ scikit-learn은 문자열 값을 입력값으로 허락하지 않기 때문에 �
 
 ----------
 
-## House Price Prediction##
+## House Price Prediction ##
 
 Using Linear Regression Model
 
@@ -71,7 +71,7 @@ https://www.kaggle.com/faressayah/linear-regression-house-price-prediction#1.-Li
 
 
 ----------
-## Behavioral Cohort Studies##
+## Behavioral Cohort Studies ##
 
 Gender & Generation Cohort
 
@@ -82,7 +82,7 @@ https://www.researchgate.net/profile/Vanessa-Jackson-6/publication/232407862_Mal
 
 
 ----------
-## 가상 쇼핑몰 고객 주문 데이터##
+## 가상 쇼핑몰 고객 주문 데이터 ##
 data set
 온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
 약 500,000건의 데이터
