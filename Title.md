@@ -1,5 +1,5 @@
-﻿##Unsupervised Learning- A Road to Customer Segmentation##
-
+## Unsupervised Learning- A Road to Customer Segmentation ##
+ 
 The first step towards the road to individual personal customization is group-of-many or as we call it fondly- Segmentation.
 
  - 2 very basic characteristics of a good segment
@@ -74,7 +74,7 @@ Three Clusters
 고객의 home location postcodes, gender, work location etc가 주어졌다면 더 정확한 클러스터 형성 가능했을 듯
 
 ----------
-##가상 쇼핑몰 고객 주문 데이터 ##
+## 가상 쇼핑몰 고객 주문 데이터 ##
 data set
 온라인 리테일 사이트의 2010/12-2011/12간의 주문 기록 데이터
 약 500,000건의 데이터
