@@ -5,6 +5,10 @@
 https://eda-ai-lab.tistory.com/522
 
 
+http://docs.likejazz.com/cosine-sim/(코사인 유사도)
+
+
+
 구매 패턴 유사 고객 선호 상품, 유사 상품 관련
 
 ## 1. 협업 필터링(Collaborative Filtering) ##
