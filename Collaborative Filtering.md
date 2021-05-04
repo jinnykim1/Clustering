@@ -5,7 +5,8 @@
 https://eda-ai-lab.tistory.com/522
 
 
-http://docs.likejazz.com/cosine-sim/(코사인 유사도)
+http://docs.likejazz.com/cosine-sim/
+(코사인 유사도)
 
 
 
