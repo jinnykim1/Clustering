@@ -2,6 +2,7 @@
 
 **참고 자료
 https://groobee.net/2021/03/15/customer-case-metrocity/
+https://eda-ai-lab.tistory.com/522
 
 
 구매 패턴 유사 고객 선호 상품, 유사 상품 관련
