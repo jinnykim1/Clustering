@@ -1,7 +1,7 @@
 # 알고리즘 #
 
 **참고 자료
-https://groobee.net/2021/03/15/customer-case-metrocity/
+
 https://eda-ai-lab.tistory.com/522
 
 
