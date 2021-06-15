@@ -1,3 +1,4 @@
+
 # 알고리즘 #
 
 **참고 자료
@@ -36,3 +37,11 @@ https://alex-blog.tistory.com/entry/Collaborative-Filtering?category=910276
 **설명 및 코드
 
 https://techblog-history-younghunjo1.tistory.com/115
+
+
+## 3. 연관 규칙 분석
+
+Association Rule의 3가지 척도
+1. Support - 전체 경우의 수에서 두 아이템이 같이 나오는 비율
+2. Confidence - X가 나온 경우 중 X와 Y가 함께 나올 비율
+3. Lift - X와 Y가 같이 나오는 비율 / X가 나올 비율 * Y가 나올 비율
