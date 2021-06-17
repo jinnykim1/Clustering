@@ -47,9 +47,11 @@ Association Rule의 3가지 척도
 3. Lift - X와 Y가 같이 나오는 비율 / X가 나올 비율 * Y가 나올 비율
 
 **설명)
-https://hezzong.tistory.com/entry/python-%EC%97%B0%EA%B4%80%EA%B7%9C%EC%B9%99%EB%B6%84%EC%84%9DA-Priori-Algorithm
+https://hezzong.tistory.com/entry/python-%EC%97%B0%EA%B4%80%EA%B7%9C%EC%B9%99%EB%B6%84%EC%84%9DA-Priori-Algorithm \
+https://rfriend.tistory.com/192 \
+https://zephyrus1111.tistory.com/119
 
-
-Apriori Algorithm 간략 설명)
-
+**Apriori Algorithm 간략 예시)
 https://sejun-s.tistory.com/15?category=830612
+
+
