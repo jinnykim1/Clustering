@@ -45,3 +45,11 @@ Association Rule의 3가지 척도
 1. Support - 전체 경우의 수에서 두 아이템이 같이 나오는 비율
 2. Confidence - X가 나온 경우 중 X와 Y가 함께 나올 비율
 3. Lift - X와 Y가 같이 나오는 비율 / X가 나올 비율 * Y가 나올 비율
+
+**설명)
+https://hezzong.tistory.com/entry/python-%EC%97%B0%EA%B4%80%EA%B7%9C%EC%B9%99%EB%B6%84%EC%84%9DA-Priori-Algorithm
+
+
+Apriori Algorithm 간략 설명)
+
+https://sejun-s.tistory.com/15?category=830612
