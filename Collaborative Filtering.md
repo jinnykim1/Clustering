@@ -54,4 +54,5 @@ https://zephyrus1111.tistory.com/119
 **Apriori Algorithm 간략 예시)
 https://sejun-s.tistory.com/15?category=830612
 
-
+## 4. 순차 패턴 분석
+http://dmqm.korea.ac.kr/uploads/seminar/DMQA-Seminar-SPM.pdf
