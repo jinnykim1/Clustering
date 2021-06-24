@@ -81,4 +81,5 @@ https://sejun-s.tistory.com/15?category=830612
 순서 의미를 갖는 데이터(Time Stamp)\
 Support 척도만 제공
 
+https://blog.linewalks.com/archives/6467
 http://dmqm.korea.ac.kr/uploads/seminar/DMQA-Seminar-SPM.pdf
