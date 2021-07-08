@@ -74,6 +74,8 @@ https://zephyrus1111.tistory.com/119
 **Apriori Algorithm 간략 예시)
 https://sejun-s.tistory.com/15?category=830612
 
+**Apriori Algorithm 코드 예시)
+https://thenewth.com/2020/09/15/%EC%97%B0%EA%B4%80-%EA%B7%9C%EC%B9%99-%EB%B6%84%EC%84%9Dfeat-python/
 
 ## 4. 순차 패턴 분석
 
