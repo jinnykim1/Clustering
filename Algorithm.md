@@ -26,6 +26,9 @@ ex) 이 상품을 구매한 사용자가 구매한 다른 상품들
 내가 이전에 구매했던 아이템을 기반으로 그 상품과 유사한 다른 상품을 추천
 상품 간 유사도: 함께 구매되는 경우의 빈도 분석
 
+**아이템 기반 추천 알고리즘 Colab 코드 적용\
+https://colab.research.google.com/drive/1lDUiNcfh6Pd7dcwjF1XigW-ijbV3CCqG#scrollTo=1njVJZg9dwQ8
+
 ==> 한계: 콜드 스타트(Cold Start) '기존 데이터'가 필수 요소, 긴 시간 소요, 
 롱테일(Long Tail) 소수의 콘텐츠가 전체 추천 콘텐츠로 보이는 비율이 높아짐 '비대칭적 쏠림 현상'
 
@@ -85,3 +88,8 @@ Support 척도만 제공
 
 https://blog.linewalks.com/archives/6467
 http://dmqm.korea.ac.kr/uploads/seminar/DMQA-Seminar-SPM.pdf
+
+
+## 5. 통계형 알고리즘
+**Colab 코드 적용\
+https://colab.research.google.com/drive/1xy4G2BtXtX9Ps_w9bNrbGzCFv75pdN2w#scrollTo=yD8QjD0oWIgt
