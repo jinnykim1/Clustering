@@ -15,7 +15,7 @@ http://docs.likejazz.com/cosine-sim/
 
 ## 1. 협업 필터링(Collaborative Filtering) ##
 
-**설명**
+**설명**\
 많은 사용자들로부터 얻은 기호 정보에 따라 사용자들의 관심사들을 자동적으로 예측하게 해주는 방법
 ex) 이 상품을 구매한 사용자가 구매한 다른 상품들
 
@@ -49,7 +49,7 @@ https://alex-blog.tistory.com/entry/Collaborative-Filtering?category=910276
 
 ## 2. 컨텐츠 기반 필터링(Contents-based Filtering)
 
-**설명 및 코드**
+**설명 및 코드**\
 콘텐츠 자체에 대한 분석을 기반으로 추천\
 상품 상세 페이지 상품 설명 분석(텍스트 정보가 많아야 함)\
 ==> 기계 / 사람이 분류\
@@ -69,20 +69,20 @@ Association Rule의 3가지 척도
 2. Confidence - X가 나온 경우 중 X와 Y가 함께 나올 비율
 3. Lift - X와 Y가 같이 나오는 비율 / X가 나올 비율 * Y가 나올 비율
 
-**설명)**
+**설명)**\
 https://hezzong.tistory.com/entry/python-%EC%97%B0%EA%B4%80%EA%B7%9C%EC%B9%99%EB%B6%84%EC%84%9DA-Priori-Algorithm \
 원리) https://rfriend.tistory.com/192 \
 https://zephyrus1111.tistory.com/119
 
-**Apriori Algorithm 간략 예시)**
+**Apriori Algorithm 간략 예시)**\
 https://sejun-s.tistory.com/15?category=830612
 
-**Apriori Algorithm 코드 예시)**
+**Apriori Algorithm 코드 예시)**\
 https://thenewth.com/2020/09/15/%EC%97%B0%EA%B4%80-%EA%B7%9C%EC%B9%99-%EB%B6%84%EC%84%9Dfeat-python/
 
 ## 4. 순차 패턴 분석
 
-**설명)**
+**설명)**\
 순서 의미를 갖는 데이터(Time Stamp)\
 Support 척도만 제공
 
@@ -91,5 +91,5 @@ http://dmqm.korea.ac.kr/uploads/seminar/DMQA-Seminar-SPM.pdf
 
 
 ## 5. 통계형 알고리즘
-**Colab 코드 적용\**
+**Colab 코드 적용**\
 https://colab.research.google.com/drive/1xy4G2BtXtX9Ps_w9bNrbGzCFv75pdN2w#scrollTo=yD8QjD0oWIgt
