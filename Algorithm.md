@@ -93,3 +93,8 @@ http://dmqm.korea.ac.kr/uploads/seminar/DMQA-Seminar-SPM.pdf
 ## 5. 통계형 알고리즘
 **Colab 코드 적용**\
 https://colab.research.google.com/drive/1xy4G2BtXtX9Ps_w9bNrbGzCFv75pdN2w#scrollTo=yD8QjD0oWIgt
+
+
+## 6. 하이브리드 추천 시스템(Hybrid Recommendation System)
+**설명)**\
+협업 필터링의 콜드 스타트 문제 해결을 위해 신규 콘텐츠는 콘텐츠 기반 필터링 기술로 분석하여 추천하고, 데이터가 쌓인 이후에는 협업 필터링을 통해 추천 정확성을 높이는 방식
